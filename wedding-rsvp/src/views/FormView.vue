@@ -8,7 +8,7 @@ export default {
   }
 
 <template>
-    <div class="form">
+    <!-- <div class="form">
       <h1>Please provide the following information</h1>
     </div>
     <div>Flight Date: {{ flyOut }}</div>
@@ -22,12 +22,10 @@ export default {
 <input type="radio" id="mon" value="mon" v-model="flyOut">
 <label for="mon"> Monday June 12th</label>
 <br>
-</template>
-<template>
-    <div class="form">
+  <div class="form">
         <div>Contact Information:</div>
         
-    </div>
+    </div> -->
 </template>
 
   
