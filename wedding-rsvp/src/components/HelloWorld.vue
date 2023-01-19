@@ -5,6 +5,8 @@ defineProps<{
 </script>
 
 <template>
+
+  <img alt="Spokane pic" class="logo" src="@/assets/spokane.jpg" width="560" height="400" />
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>

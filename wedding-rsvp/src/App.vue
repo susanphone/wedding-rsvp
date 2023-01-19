@@ -4,17 +4,17 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
+  
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
       <HelloWorld msg="You made it!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/about">Itinerary</RouterLink>
         <RouterLink to="/form">Form</RouterLink>
-        <RouterLink to="/faq">FAQ</RouterLink>
+        <!-- <RouterLink to="/faq">FAQ</RouterLink> -->
         </nav>
     </div>
   </header>
@@ -23,6 +23,10 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+    /* main{
+      background-image: url('./assets/billy-J2i9IHYPZxY-unsplash.jpg');
+    } */
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -84,4 +88,7 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+main{
+    background-image: url('./assets/billy-J2i9IHYPZxY-unsplash.jpg');
+  }
 </style>
