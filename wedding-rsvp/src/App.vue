@@ -88,7 +88,7 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-main{
+::backdrop{
     background-image: url('./assets/billy-J2i9IHYPZxY-unsplash.jpg');
   }
 </style>
